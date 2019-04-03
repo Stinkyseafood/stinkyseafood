@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by Stinkyseafood (http://jsbin.com/coditac/4/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>雙欄式網頁版型</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136752559-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136752559-1');
+</script>
+    
+ </script>
+    <style type="text/css">
+     /*將CSS寫在HTML中*/
+     body{
+     width: 900px;
+     color: rgb(255, 255, 255);
+     margin:auto;
+     font-family: sans-serif, "微軟正黑體";
+     }
+     
+    #header{
+     background-color: #c5d9e2;
+     padding: 20px;
+     }
+
+     #nav{
+     background-color: #20292F;
+     padding: 0px;
+     }
+
+     #aside{
+     width: 200px;
+     height: 400px;
+     text-align:rifght;
+     background-color: #63808F;
+     padding:20px 10px;
+     float: left;
+     }
+
+     #section{
+     width: 640px;
+     height: 400px;
+     background-color: #849DAA;
+     line-height: 1.5em;
+     padding: 20px;
+     float: right;
+     }
+
+     #footer{
+     padding:20px;
+     background-color: #425660;
+     clear: both;
+     }
+  
+     h1,h2{
+     font-family: sans-serif, "微軟正黑體";
+     font-size: 18px;
+     color: rgb(255, 255, 255);
+     text-align: left;
+     }
+     
+    
+    a:link, a:visited{
+        text-decoration: none;
+        background-color: rgb(63, 63, 66);
+        border: 2px solid rgb(70, 67, 67);
+        width: 130px;
+        display: block;
+        margin: 25px;
+        color: white;
+    } 
+    a:hover:nth-child(1) {
+        background-color: orange;
+        color: yellow;
+    }
+
+    
+    section div:nth-child(odd):hover{
+        background-color: green;
+        cursor: pointer;
+    }
+    li{
+        list-style: none;
+        }
+
+    
+      .left
+      {
+        position:absolute;
+        right:0px;
+        left:0px;
+        }
+     .flex
+      {
+      display: flex;
+      }
+      nav > ul {
+    
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding:0;
+      }
+      
+     </style>
+  </head>
+
+<body>
+  <header id="header">
+
+<h1>世嵩A作業</h1>
+
+</header>
+  
+  <nav id="nav">
+    <ul class= "flex">
+    <a href="#">導覽列</a> 
+      <li><a href="https://www.nkust.edu.tw/" target="_blank">學校</a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=
+      100000674923382&__tn__=%2Cd*F*F-R&eid=ARDSbJHRWGSFh4EYYDsp_nkxbU9GlV4_aGjAMcNb9x4Y-02V0rwI7lCDddxujYs4B0oRV362MqQXOpY-&tn-str=*F" target="_blank">臉書</a></li>   
+    <li><a href="https://www.instagram.com/eric.0209/?hl=zh-tw" target="_blank">Instagram</a></li>  
+    </ul>
+    
+      
+      
+      </nav>
+  
+  <aside id="aside">
+    <h1> ▶ 個人連結</h1>
+    
+    <ul class="left">
+    <li><a href="https://www.facebook.com/profile.php?id=100000674923382&__tn__=%2Cd*F*F-R&eid=ARDSbJHRWGSFh4EYYDsp_nkxbU9GlV4_aGjAMcNb9x4Y-02V0rwI7lCDddxujYs4B0oRV362MqQXOpY-&tn-str=*F" target="_blank">臉書</a></li>   
+    <li><a href="https://www.instagram.com/eric.0209/?hl=zh-tw" target="_blank">Instagram</a></li>  
+    <li><a href="https://www.nkust.edu.tw/" target="_blank">學校</a></li>     
+</ul>
+  </aside>
+  
+  <section id="section">
+    <h1>大區塊</h1>
+    <h1>我的第一個樣式頁面</h1>
+
+<p>歡迎來到我的樣式頁面!
+<p>這裡沒有圖片, 但至少有CSS樣式. 有連接, 但只是為了舉例和演示, 並不能帶你到任何地方…
+<p>這只是個例子, 好像沒什麼好寫
+    <div>1233</div>
+    <div>1233</div>
+    <div>1233</div>
+    <div>1233</div>
+    <div>1233</div>
+    <div>1233</div>
+    
+
+  </section>
+  
+  <footer id="footer">
+    <h1>聯絡資訊  </h1>
+    <p align="left">LINE:zx20212</p> 
+    <p align="left">My phone:0927665217</p>
+    
+  </footer>
+
+
+</body>
+</html>
+

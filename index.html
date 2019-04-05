@@ -1,178 +1,127 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2019 by Stinkyseafood (http://jsbin.com/coditac/4/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>雙欄式網頁版型</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136752559-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136752559-1');
-</script>
+    <title>█ Eric Yang
+        
+    </title>
     
- </script>
     <style type="text/css">
      /*將CSS寫在HTML中*/
+     
      body{
-     width: 900px;
-     color: rgb(255, 255, 255);
-     margin:auto;
+     margin:0 auto;
      font-family: sans-serif, "微軟正黑體";
      }
      
-    #header{
-     background-color: #c5d9e2;
-     padding: 20px;
-     }
-
      #nav{
-     background-color: #20292F;
-     padding: 0px;
+     width:100%;
+     position: fixed;
+     height:35px; 
+     padding:5px 20px 15px;
+     background-color:black;
+     color: rgb(255, 255, 255);
+     opacity: 0.8;  
+     
+     
      }
+          
+     #header{
 
-     #aside{
-     width: 200px;
-     height: 400px;
-     text-align:rifght;
-     background-color: #63808F;
-     padding:20px 10px;
-     float: left;
-     }
+     height:100%-100px; 
+     padding:80px 50px ;
+     background-color: #c5d9e2;
+     }     
 
-     #section{
-     width: 640px;
-     height: 400px;
-     background-color: #849DAA;
-     line-height: 1.5em;
-     padding: 20px;
-     float: right;
-     }
+     
 
      #footer{
-     padding:20px;
+     padding: 5px;
      background-color: #425660;
      clear: both;
      }
-  
-     h1,h2{
-     font-family: sans-serif, "微軟正黑體";
-     font-size: 18px;
-     color: rgb(255, 255, 255);
-     text-align: left;
+     
+
+     nav > ul{
+      list-style: none; 
+      display: flex;            
      }
      
-    
-    a:link, a:visited{
-        text-decoration: none;
-        background-color: rgb(63, 63, 66);
-        border: 2px solid rgb(70, 67, 67);
-        width: 130px;
-        display: block;
-        margin: 25px;
-        color: white;
-    } 
-    a:hover:nth-child(1) {
-        background-color: orange;
-        color: yellow;
-    }
+
+      nav a:link,nav a:visited {       
+      text-decoration: none;
+      margin: 20px;
+      color:white;
+      font-size: 25px;   
+     }
+
+   
+     nav a:hover{
+     text-decoration: underline;  
+     color:rgb(104, 105, 110);
+     }
+     nav a:active {
+       
+      color:black;
+     }
+
+     .slogan{
+              font-weight:initial;
+       text-align: center;
+     }
+
+     .underline{
+       text-decoration: underline;
+     }
+     .img-center{
+      display:block;
+       margin:auto;  
+       height: 55%;
+       }
+       
+       .center{
+         text-align: center;
+     }
+     .about-me{
+      text-indent: 2em;    
+      font-weight:initial;
+      width: 75%;
+       display:block;
+       margin:auto;
+       font-size: 22px
+     }
+
+
+
 
     
-    section div:nth-child(odd):hover{
-        background-color: green;
-        cursor: pointer;
-    }
-    li{
-        list-style: none;
-        }
 
-    
-      .left
-      {
-        position:absolute;
-        right:0px;
-        left:0px;
-        }
-     .flex
-      {
-      display: flex;
-      }
-      nav > ul {
-    
-    list-style: none;   /* 移除項目符號 */
-    margin: 0;
-    padding:0;
-      }
-      
      </style>
   </head>
 
 <body>
-  <header id="header">
 
-<h1>世嵩A作業</h1>
-
-</header>
-  
-  <nav id="nav">
-    <ul class= "flex">
-    <a href="#">導覽列</a> 
-      <li><a href="https://www.nkust.edu.tw/" target="_blank">學校</a></li>
-    <li><a href="https://www.facebook.com/profile.php?id=
-      100000674923382&__tn__=%2Cd*F*F-R&eid=ARDSbJHRWGSFh4EYYDsp_nkxbU9GlV4_aGjAMcNb9x4Y-02V0rwI7lCDddxujYs4B0oRV362MqQXOpY-&tn-str=*F" target="_blank">臉書</a></li>   
-    <li><a href="https://www.instagram.com/eric.0209/?hl=zh-tw" target="_blank">Instagram</a></li>  
-    </ul>
-    
-      
-      
-      </nav>
-  
-  <aside id="aside">
-    <h1> ▶ 個人連結</h1>
-    
-    <ul class="left">
-    <li><a href="https://www.facebook.com/profile.php?id=100000674923382&__tn__=%2Cd*F*F-R&eid=ARDSbJHRWGSFh4EYYDsp_nkxbU9GlV4_aGjAMcNb9x4Y-02V0rwI7lCDddxujYs4B0oRV362MqQXOpY-&tn-str=*F" target="_blank">臉書</a></li>   
-    <li><a href="https://www.instagram.com/eric.0209/?hl=zh-tw" target="_blank">Instagram</a></li>  
-    <li><a href="https://www.nkust.edu.tw/" target="_blank">學校</a></li>     
+ <nav id="nav">
+  <ul>
+        <li class="underline"><a href="https://stinkyseafood.nctu.me/" >HOME</a></li>
+        <li><a href="https://www.nkust.edu.tw/" target="_blank">School</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=
+          100000674923382&__tn__=%2Cd*F*F-R&eid=ARDSbJHRWGSFh4EYYDsp_nkxbU9GlV4_aGjAMcNb9x4Y-02V0rwI7lCDddxujYs4B0oRV362MqQXOpY-&tn-str=*F" target="_blank">FACEBook</a></li>   
+        <li><a href="https://www.instagram.com/eric.0209/?hl=zh-tw" target="_blank">Instergarm</a></li>  
 </ul>
-  </aside>
-  
-  <section id="section">
-    <h1>大區塊</h1>
-    <h1>我的第一個樣式頁面</h1>
-
-<p>歡迎來到我的樣式頁面!
-<p>這裡沒有圖片, 但至少有CSS樣式. 有連接, 但只是為了舉例和演示, 並不能帶你到任何地方…
-<p>這只是個例子, 好像沒什麼好寫
-    <div>1233</div>
-    <div>1233</div>
-    <div>1233</div>
-    <div>1233</div>
-    <div>1233</div>
-    <div>1233</div>
+</nav>    
     
-
-  </section>
+<header id="header">
   
+<h1 class="center"> ABOUT ME </h1>
+<img class="img-center"   src="/img/personal.png" alt="personal">
+<h1 class="slogan">Hello! I am Eric Yang</h1>
+<h3 class="about-me">世嵩，1997年，來自於台灣桃園，善變的水瓶座男孩，遠赴他鄉三年多，與高雄的熱情激烈碰撞。
+  <h3 class="about-me">我會在這裡紀錄生活，分享我的異想天開的想法。如果你和我一樣奇怪，歡迎認識我:)</h3>
+
+
+</header> 
   <footer id="footer">
-    <h1>聯絡資訊  </h1>
-    <p align="left">LINE:zx20212</p> 
-    <p align="left">My phone:0927665217</p>
-    
+    <p style= "text-align:center" >Eric Yang</p>
   </footer>
-
-
 </body>
 </html>
-

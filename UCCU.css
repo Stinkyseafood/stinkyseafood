@@ -80,7 +80,7 @@
        color: white;
        font-weight:initial;
        text-align: center;
-       font-size: 50px;
+       font-size: 6.5vh;
        line-height: 0.5vh;
      }
 
@@ -183,7 +183,7 @@
         }
         .about-head{
           line-height:4vh;
-          font-size: 5vh;
+          font-size: 4vh;
         }
         .about-text{
           line-height: 5vh;

@@ -234,9 +234,7 @@
   }
   .skill-box{
     margin-top: 15vh;
-    border-style: solid;
-    border-color: aqua;
-    width: 40vw;
+     width: 40vw;
     height:50vh;
     position: absolute;
     left: 10vw;
@@ -244,8 +242,7 @@
   }
   .skill-box1{
     margin-top: 15vh;
-    border-style: solid;
-    border-color: black;
+    
     width: 40vw;
     height:50vh;
     left: 55vw;

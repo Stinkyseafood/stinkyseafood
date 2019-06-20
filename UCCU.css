@@ -182,14 +182,13 @@
         
         }
         .about-head{
-          line-height:4vh;
+          line-height:7vh;
           font-size: 4vh;
         }
         .about-text{
-          line-height: 5vh;
           position: absolute;
           left: 150px;
-          font-size: 4VH;
+          font-size: 3.8VH;
         }
         .about-text1{
           line-height: 5vh;
@@ -251,6 +250,10 @@
     height:50vh;
     left: 55vw;
     position: absolute;
+
+  }
+  .skill-size{
+    font-size: 3.5VH;
 
   }
         

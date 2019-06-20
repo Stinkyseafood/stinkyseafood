@@ -89,7 +89,7 @@
      .img-center{
       display:block;
        margin:auto;  
-       height: 65vh ;
+       height: 65vh;
        
        }
        
@@ -181,7 +181,7 @@
         
         }
         .about-head{
-          line-height:4vh;
+          line-height:4.5vh;
           font-size: 5vh;
         }
         .about-text{

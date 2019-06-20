@@ -89,7 +89,8 @@
      .img-center{
       display:block;
        margin:auto;  
-       height: 60vh;
+       height: 50vh;
+       
        }
        
        .home-center{
@@ -112,11 +113,11 @@
      header > div >a{
         width:  50px;
         height: 50px;
-        border-radius: 100%;
+        border-radius: 80%;
         border: 3px solid white;
         text-align: center;
         line-height: 50px;
-        right: 15vw;
+        right: 10vw;
         position: absolute;
         bottom: 10vh;
         text-decoration:none;
@@ -127,11 +128,11 @@
      header>div>a:hover
         {    width:  50px;
             height: 50px;
-            border-radius: 100%;
+            border-radius: 80%;
             border: 3px solid rgb(11, 0, 114);
             text-align: center;
             line-height:50px;
-            right: 15vw;
+            right: 10vw;
             position: absolute;
             bottom: 10vh;
             text-decoration:none;
@@ -162,14 +163,14 @@
                 
         .right10{
         position: absolute;    
-        right: 10vw;
-        bottom:0vh;
+        right: 0vw;
+        bottom:8vh;
         }
 
    .right20{
       position: absolute;    
-            right:20vw;
-            bottom:0vh;
+            right:0vw;
+            bottom:16vh;
             }
       .about-line{
         height:10px;
@@ -187,17 +188,17 @@
           line-height: 5vh;
           position: absolute;
           left: 150px;
-          font-size: 20px;
+          font-size: 4VH;
         }
         .about-text1{
           line-height: 5vh;
           left: 150px;
-          font-size: 18px;
+          font-size: 3.5VH;
         }
         .about-text2{
           line-height: 3vh;
           left: 150px;
-          font-size: 16px;
+          font-size: 3VH;
         }
 
         .nkust{
